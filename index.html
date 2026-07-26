@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tringale Office Center – Catania</title>
+
+  <!-- Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!--Bootstrap icone-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <!-- Google Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <!--CSS-->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar pc-->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="img/logom.png" alt="Logo Tringale Office Center" height="40" class="d-inline-block align-top me-2">
+        <span>Tringale Office Center </span>
+      </a>
+      <!--navbar hamburger per mobile-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="telefonia.html">Telefonia</a></li>
+          <li class="nav-item"><a class="nav-link" href="contratti.html">Contratti</a></li>
+          <li class="nav-item"><a class="nav-link" href="stampanti.html">Stampanti</a></li>
+          <li class="nav-item"><a class="nav-link" href="accessori.html">Accessori</a></li>
+          <li class="nav-item"><a class="nav-link" href="contatti.php">Contatti</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero-->
+  <header class="hero py-5 text-center">
+    <div class="container">
+      <p class="text-uppercase small mb-2">Catania · Da oltre 30 anni</p>
+      <h1 class="display-5 mb-3">Il tuo punto di riferimento per tecnologia e ufficio</h1>
+      <!--lead per rendere il paragrafo più grande-->
+      <p class="lead mb-4">Smartphone, stampanti, accessori e contratti Vodafone.</p>
+      <a href="contatti.php" class="btn btn-outline-light btn-lg">Contattaci</a>
+      <!--per andare alla storia-->
+      <a href="#storia" class="btn btn-outline-light btn-lg">Chi siamo</a>
+    </div>
+  </header>
+
+  <!-- Prodoti-->
+  <section class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="text-muted mb-1">Cosa facciamo</p>
+        <h2>I nostri prodotti</h2>
+        <p class="text-muted">Tutto ciò che serve per restare connessi e lavorare al meglio.</p>
+      </div>
+
+      <!--griglia boostrap con prodotti-->
+      <div class="row g-4">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <a href="telefonia.html" class="text-decoration-none text-dark">
+            <div class="card h-100 text-center p-4">
+              <i class="bi bi-phone display-4 text-primary mb-3"></i>
+              <h5>Telefonia</h5>
+              <p class="text-muted small mb-0">Smartphone e telefoni per privati e aziende.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <a href="contratti.html" class="text-decoration-none text-dark">
+            <div class="card h-100 text-center p-4">
+              <i class="bi bi-file-earmark-text display-4 text-primary mb-3"></i>
+              <h5>Contratti Vodafone</h5>
+              <p class="text-muted small mb-0">Offerte mobile e fisso per ogni esigenza.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <a href="stampanti.html" class="text-decoration-none text-dark">
+            <div class="card h-100 text-center p-4">
+              <i class="bi bi-printer display-4 text-primary mb-3"></i>
+              <h5>Stampanti</h5>
+              <p class="text-muted small mb-0">Stampanti e registratori di cassa.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <a href="accessori.html" class="text-decoration-none text-dark">
+            <div class="card h-100 text-center p-4">
+              <i class="bi bi-headphones display-4 text-primary mb-3"></i>
+              <h5>Accessori</h5>
+              <p class="text-muted small mb-0">Cover, cuffie, cavi e tutto il resto.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servizi con griglia boostrap-->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="text-muted mb-1">Come lavoriamo</p>
+        <h2>I nostri servizi</h2>
+        <p class="text-muted">Non vendiamo solo prodotti: ti affianchiamo nella scelta e ti seguiamo nel tempo.</p>
+      </div>
+      <div class="row g-4 text-center">
+        <div class="col-md-4">
+          <div class="cerchio"><i class="bi bi-people"></i></div>
+          <h5>Assistenza alla scelta</h5>
+          <p class="text-muted">Ti aiutiamo a trovare il prodotto più adatto alle tue esigenze e al tuo budget, senza fretta.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="cerchio"><i class="bi bi-reception-4"></i></div>
+          <h5>Attivazione e consulenza</h5>
+          <p class="text-muted">Supporto completo per la scelta e l'attivazione di offerte e contratti Vodafone.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="cerchio"><i class="bi bi-pc-display"></i></div>
+          <h5>Soluzioni per ufficio</h5>
+          <p class="text-muted">Stampanti, materiale di consumo e accessori per far funzionare la tua attività al meglio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--pulsante per Storia-->
+  <section id="storia" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0 text-center">
+          <p class="text-muted mb-1">La nostra storia</p>
+          <h2>Da oltre trent'anni,<br>un punto fermo a Catania</h2>
+        </div>
+        <div class="col-lg-6">
+          <p>Tringale Office Center è un punto di riferimento a Catania da oltre 30 anni nel settore della telefonia e delle soluzioni per ufficio.</p>
+          <p>L'attività nasce negli anni in cui la tecnologia per ufficio era dominata da marchi storici come <strong>Olivetti</strong>, offrendo prodotti e assistenza per aziende e professionisti della città.</p>
+          <p>Con l'evoluzione del mercato, il negozio ha accompagnato i clienti nelle prime fasi della tecnologia mobile, collaborando con le prime realtà di Vodafone, <strong>allora conosciuta come Omnitel</strong>.</p>
+          <p>Oggi Tringale Office Center continua a offrire servizi di attivazione e consulenza per contratti Vodafone, insieme a una vasta gamma di smartphone, stampanti e accessori per privati e aziende.</p>
+          <p class="mb-0"><strong>Esperienza, affidabilità e attenzione al cliente</strong> sono i valori che da sempre guidano il nostro lavoro.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--finale -->
+  <section class="py-5 bg-light text-center">
+    <div class="container">
+      <h2>Vieni a trovarci</h2>
+      <p class="text-muted mb-4">Ci trovi a Catania · Il partner di fiducia per la tua attività.</p>
+      <!--bottone per contatti-->
+      <a href="contatti.php" class="bottone">Contattaci</a>
+    </div>
+  </section>
+
+  <!--Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <!--logo-->
+          <img src="img/logom.png" alt="Logo" height="50" class="mb-3 d-block transparent-logo">
+          <h6 class="text-white">Tringale Office Center</h6>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <small>
+            <a href="index.html">Home</a> ·
+            <a href="telefonia.html">Telefonia</a> · 
+            <a href="contratti.html">Contratti</a> ·
+            <a href="stampanti.html">Stampanti</a> ·
+            <a href="accessori.html">Accessori</a> ·
+            <a href="contatti.php">Contatti</a> ·    
+          </small>
+        </div>
+      </div>
+      <hr class="border-secondary my-3">
+      <div class="text-center">
+        <small>© 2026 Tringale Office Center - Tutti i diritti riservati</small>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

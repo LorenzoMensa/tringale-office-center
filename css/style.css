@@ -1,0 +1,111 @@
+/* css per sito*/
+
+:root {
+    --verde: #74992e;
+    --rosso: #e63946;
+    --chiaro: #f5f7fa;
+    --blue-tech: #1d3557;
+    /*sovrascrivo il mio blu a quello di boostrap*/
+    --bs-primary: #74992e;;
+    --bs-primary-rgb: 116, 153, 46;;
+}
+
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/*testo*/
+h1, h2, h3, h4, h5, h6 {
+    color: var(--blue-tech)
+}
+
+
+/* Navba */
+.navbar {
+    background: linear-gradient(135deg, var(--verde), var(--blue-tech)) !important;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+
+.navbar .nav-link:hover {
+    color: var(--rosso) !important; /*rossa quando ci passi sopra */
+}
+
+/* Nome del negozio in bianco lucido*/
+.navbar .navbar-brand {
+    color: white !important;
+}
+
+/*Hero  */
+.hero {
+    background: linear-gradient(135deg, var(--verde), var(--blue-tech));
+    color: white;
+}
+
+/*  Bottone */
+.bottone {
+    display: inline-block;
+    background-color: var(--verde);
+    color: white !important;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.bottone:hover {
+    background-color: #5d7a25;
+    color: white !important;
+}
+
+/*  CSS per card */
+.card {
+    transition: box-shadow 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    height: 200px;
+    object-fit: contain;
+}
+
+/* Icone servizi */
+.cerchio {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--chiaro);
+    color: var(--verde);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    margin: 0 auto 1rem;
+}
+
+/*  Footer */
+footer {
+    background: linear-gradient(135deg, var(--verde), var(--blue-tech)) !important;
+    color: #ccc;
+    padding: 2rem 1rem;
+}
+
+footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
